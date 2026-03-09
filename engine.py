@@ -1,14 +1,13 @@
 import os
 import sys
-import numpy as np
-import joblib
+import numpy as np # type: ignore
+import joblib # type: ignore
 from pathlib import Path
 
 # --- 1. IMPORTS & SETUP ---
-import skimage
-from skimage.feature import hog
-from skimage import transform
-from skimage import io as skimage_io
+from skimage.feature import hog # type: ignore
+from skimage import transform # type: ignore
+from skimage import io as skimage_io # type: ignore
 
 try:
     import cv2 # type: ignore
